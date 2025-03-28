@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiculoAlertasMVVMApp", "VeiculoAlertasMVVMApp\VeiculoAlertasMVVMApp\VeiculoAlertasMVVMApp.csproj", "{31381400-9CDB-493D-8803-0CA2F00EA025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeiculoAlertasMVVMApp.WinUI", "VeiculoAlertasMVVMApp\VeiculoAlertasMVVMApp.WinUI\VeiculoAlertasMVVMApp.WinUI.csproj", "{7E018F6B-75A5-4646-8EDB-CE3E57916992}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31381400-9CDB-493D-8803-0CA2F00EA025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31381400-9CDB-493D-8803-0CA2F00EA025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31381400-9CDB-493D-8803-0CA2F00EA025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31381400-9CDB-493D-8803-0CA2F00EA025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E018F6B-75A5-4646-8EDB-CE3E57916992}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7E018F6B-75A5-4646-8EDB-CE3E57916992}.Debug|Any CPU.Build.0 = Debug|x64
+		{7E018F6B-75A5-4646-8EDB-CE3E57916992}.Release|Any CPU.ActiveCfg = Release|x64
+		{7E018F6B-75A5-4646-8EDB-CE3E57916992}.Release|Any CPU.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7347AD1-70D4-40FD-A95B-B7695879CCD5}
+	EndGlobalSection
+EndGlobal

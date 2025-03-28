@@ -1,0 +1,14 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodel="clr-namespace:VeiculoAlertasMVVMApp.ViewModels" 
+             x:Class="VeiculoAlertasMVVMApp.MainPage">
+    <ContentPage.BindingContext>
+        <viewmodel:VeiculoViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout Padding="20" VerticalOptions="Center">
+        <Entry Placeholder="Marca" Text="{Binding Marca}" />
+        <Entry Placeholder="Modelo" Text="{Binding Modelo}" />
+        <Entry Placeholder="Ano" Text="{Binding Ano}" />
+        <Button Text="Exibir Detalhes" Command="{Binding ExibirDetalhesCommand}" />
+    </StackLayout>
+</ContentPage>
